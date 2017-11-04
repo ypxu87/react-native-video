@@ -93,7 +93,7 @@ public class ReactVideoView extends ScalableVideoView implements MediaPlayer.OnP
     private boolean mPaused = false;
     private boolean mMuted = false;
     private float mVolume = 1.0f;
-    private float mProgressUpdateInterval = 250.0f;
+    private float mProgressUpdateInterval = 1000.0f;
     private float mRate = 1.0f;
     private boolean mPlayInBackground = false;
     private boolean mActiveStatePauseStatus = false;
